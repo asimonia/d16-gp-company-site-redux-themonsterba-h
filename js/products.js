@@ -64,7 +64,24 @@ var costumes = [
 	}	
 ]
 
+function	buildDom() {
+	var emptyString = '';
 
+	 for (i = 0; i < costumes.length; i++) { 
+
+	 		var CostumeName = costumes[i].name;
+	 		var CostumeDescription = costumes[i].description;
+	 		var CostumePrice = costumes[i].price;
+	 		var CostumeURL = costumes[i].URL;
+
+
+	 		var CostumeCard = document.getElementById("product-container");
+
+
+
+
+	 }
+}
 
 
 
