@@ -25,8 +25,7 @@ var costumes = [
 		"gender": "Dog",
 		"price": "$50",
 		"description": "Everyone's favorite robot",
-
-		"image": "/images/r2d2.jpg"
+		"image": "images/r2d2.jpg"
 	},
 	{
 		"name": "Earthworm",
@@ -86,7 +85,6 @@ var costumes = [
 	}	
 ]
 
-
 	 for (i = 0; i < costumes.length; i++) { 
 
 	 		var currentCostume = costumes[i];
@@ -101,7 +99,6 @@ var costumes = [
 
 	 		CostumeContainer.innerHTML += "<div class='all'>" + costumeName + costumeURL + costumeDescription + costumePrice + costumeGender + "</div>";
 }
-
 
 
 
