@@ -1,0 +1,31 @@
+#about-content {
+	margin: 100px 5px 0 15px;
+	padding: 50px 2em;
+	width: 53%;
+	background-color: #DF4E39;
+	opacity: 0.65;
+	color: black;
+	font-weight: bold;
+	float: left; 
+	border: 3px solid black;
+	text-align: left;
+}
+
+
+#about-theo {
+	width: 400px;
+	margin: 100px 5px 5px 0;
+	float: right;
+	border: 3px solid black;
+}
+
+#about-contact {
+	width: 380px;
+	padding: 50px 10px 50px 10px;
+	margin: 0 5px 0 0;
+	float: right;
+	border: 3px solid black;
+	background-color: #DF4E39;
+	opacity: 0.65;
+	/*display: inline-block;*/
+}
