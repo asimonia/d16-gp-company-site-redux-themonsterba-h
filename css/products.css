@@ -1,3 +1,9 @@
+
+#wrapper {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
 #costumes-header {
 	font-size: 200%;
 	text-align: center;
@@ -37,16 +43,9 @@
 .all:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
+#construction {
+	text-align: center;
+}

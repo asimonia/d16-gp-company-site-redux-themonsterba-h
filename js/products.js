@@ -62,29 +62,28 @@ var costumes = [
 		"description": "Beware of this vampire",
 		"image": "/images/dracula-hedgehog.jpeg"	
 	},
- 	{
- 		"name": "Receipt",
- 		"gender": "Unisex",
- 		"price": "$110",
- 		"description": "For your favorite coupon lover",
- 		"image": "/images/receipt.jpg"	
- 	},
- 	{
- 		"name": "Green Man",
- 		"gender": "Unisex",
- 		"price": "$70",
- 		"description": "Keep off the grass",
- 		"image": "/images/green.jpg"	
- 	}, 
- 	{
- 		"name": "Rollercoaster",
- 		"gender": "Group",
- 		"price": "$250",
- 		"description": "Have rollercoaster fun without leaving the ground!",
- 		"image": "/images/rollercoaster.png"	
-  	}	
-]	
-
+	{
+		"name": "Receipt",
+		"gender": "Unisex",
+		"price": "$110",
+		"description": "For your favorite coupon lover",
+		"image": "/images/receipt.jpg"	
+	},
+	{
+		"name": "Green Man",
+		"gender": "Unisex",
+		"price": "$70",
+		"description": "Keep off the grass",
+		"image": "/images/green.jpg"	
+	}, 
+	{
+		"name": "Rollercoaster",
+		"gender": "Group",
+		"price": "$250",
+		"description": "Have rollercoaster fun without leaving the ground!",
+		"image": "/images/rollercoaster.png"	
+	}	
+]
 
 	 for (i = 0; i < costumes.length; i++) { 
 

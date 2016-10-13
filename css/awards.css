@@ -37,3 +37,28 @@ img.desaturate {
 	width: 70%;
 
 }
+
+#bestcontainer {
+	text-align: center;
+	width: 70%;
+	margin: -10% 15% 15% 20%;
+}
+
+/*#bestbest {
+	display: inline-block;
+}
+
+#polygon {
+	display: inline-block;
+}
+*/
+#smallbest {
+	max-width: 35%;
+	display: inline-block;
+	float: left;
+}
+
+#smallpolygon {
+	max-width: 35%;
+	display: inline-block;
+}
