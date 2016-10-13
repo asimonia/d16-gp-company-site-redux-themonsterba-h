@@ -64,27 +64,20 @@ var costumes = [
 	}	
 ]
 
-function	buildDom() {
-	var emptyString = '';
-
 	 for (i = 0; i < costumes.length; i++) { 
 
-	 		var CostumeName = costumes[i].name;
-	 		var CostumeDescription = costumes[i].description;
-	 		var CostumePrice = costumes[i].price;
-	 		var CostumeURL = costumes[i].URL;
+	 		var currentCostume = costumes[i];
+	 		var costumeName = "<h2 class='name'>" + currentCostume.name + "</h2>";
+	 		var costumeDescription = "<h3 class='description'>" + currentCostume.description + "</h3>"
+	 		var costumeGender = "<h3 class='gender'>" + currentCostume.gender + "</h3>"
+	 		var costumePrice = "<h3 class='price'>" + currentCostume.price + "</h3>"
+	 		var costumeURL = "<img class='pics' src=' " + currentCostume.image + " '>"
 
 
-	 		var CostumeCard = document.getElementById("product-container");
+	 		var CostumeContainer = document.getElementById("product-container");
 
-
-
-
-	 }
+	 		CostumeContainer.innerHTML += "<div class='all'>" + costumeName + costumeURL + costumeDescription + costumePrice + costumeGender + "</div>";
 }
-
-
-
 
 
 
