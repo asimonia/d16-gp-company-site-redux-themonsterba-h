@@ -25,6 +25,7 @@ var costumes = [
 		"gender": "Dog",
 		"price": "$50",
 		"description": "Everyone's favorite robot",
+
 		"image": "/images/r2d2.jpg"
 	},
 	{
@@ -84,6 +85,7 @@ var costumes = [
 		"image": "/images/rollercoaster.png"	
 	}	
 ]
+
 
 	 for (i = 0; i < costumes.length; i++) { 
 
