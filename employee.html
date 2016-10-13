@@ -5,6 +5,8 @@
 	<title>Monster BA$H</title>
 	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/employee.css">
+	<link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 <body>
 	<header>
@@ -30,11 +32,68 @@
 			</ul>
 		</nav>
 	</header>
+	
+	<h1 id="header">Say Hello to the Boils and Ghouls</h1>
 
+	<div class="slideshow-container">
+		  <div class="mySlides fade">
+		    <img src="images/ozzy.jpg" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+		    <img src="images/drfranknfurter.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+		    <img src="images/pennywise.png" style="width:100%">
+		  </div>
+
+		  <div class="mySlides fade">
+		    <img src="images/glenn_danzig.jpg" style="width:100%">
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span>
+		  <span class="dot" onclick="currentSlide(4)"></span>
+		</div>
 	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nemo, repellat illo culpa dolores quod quibusdam similique fugit impedit placeat commodi laboriosam ullam beatae maiores hic debitis, vero fuga voluptas!</p>
+		<article class="employee" id="employee1">
+			<aside>
+				<img src="images/ozzy.jpg">
+				<h2>Ozzy Osbourne</h2>
+				<p>Need help picking out that bat costume?  Tired of wearing the same old bright colored clothes?  All aboard the crazy train -- the Ozzyman cometh here to serve all your costuming needs.</p>
+			</aside>
+		</article>
+		<article class="employee" id="employee2">
+			<aside>
+				<img src="images/pennywise.png">
+				<h2>Pennywise</h2>
+				<p>Beep beep, Ritche! It's Fall 2016, the air is damp, cold, and chilly -- and guess what, clowns are so totally in these days!  Be sure to ask him all your questions when you can: you will never know when or where he will pop up.</p>
+			</aside>
+		</article>
+		<article class="employee" id="employee3">
+			<img src="images/glenn_danzig.jpg" id="employee3">
+			<aside>
+				<h2>Glenn Danzing</h2>
+				<p>He's got something to say.  If you want something that doesn't necessarily stand out in a crowd, say hello to Glenn!  He is such a misfit.  Glenn has been around for a long time and has a bit of an attitude, but if you talk to him just right, he will be able to pick you out something cute.</p>
+			</aside>
+		</article>
+		<article class="employee" id="employee4">
+			<img src="images/drfranknfurter.png" id="employee4">
+			<aside>
+				<h2>Dr. FrankNFurter</h2>
+				<p>Always sweet and sassy, Frank is the master diva when it comes to picking out a costume.  He -- at least we think he is a he -- loves to host parties and throw shindigs for a unannounced guests.  His buddy, Riff Raff, is here to help you out as well.</p>
+			</aside>
+		</article>
 	</div>
-
-	<footer> Monster BA$H Outfitters 2016 © </footer>
+	<script src="js/slideshow.js"></script>
+	<footer id="awards_footer"><img id="foot-image" src="images/monster-footer.png" alt="Monster Bash"></footer>
 </body>
 </html>
