@@ -1,0 +1,33 @@
+div h1 {
+	text-align: center;
+	color: green;
+	font-size: 200%;
+	font-weight: bolder;
+	background-color: white;
+	opacity: .6;
+}
+
+.employee p {
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	float: left;
+}
+
+.employee h2 {
+	color: red;
+}
+
+.employee img {
+	display: block;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.employee aside {
+	display: inline;
+	float: right;
+}
