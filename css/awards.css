@@ -1,0 +1,39 @@
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	border: solid black 4px;
+	border-radius: 5%;
+	max-width: 100%;
+	/*margin: 5% 5% 15% 15%;*/
+}
+
+#dinaphoto {
+	display: inline-block;
+	/*margin: 0;*/
+	margin-right: 2%;
+	max-width: 46%;
+	vertical-align: top;
+}
+
+#dinastorytime {
+	/*margin: 5% 15% 15% 42%;*/
+	background-color: red;
+	opacity: 0.8;
+	color: black;
+    border: solid black 4px;
+    border-radius: 5%;
+    font-weight: 400;
+    font-size: 1.2em;
+    max-width: 46%;
+    display: inline-block;
+    height: 291px;
+    overflow: scroll;
+    padding: 0 2%;
+    font-family: 'IM Fell English', serif;
+}
+
+#awardcontainer {
+	margin: 8% 15% 15% 15%;
+	width: 70%;
+
+}
