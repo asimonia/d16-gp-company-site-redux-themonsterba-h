@@ -1,10 +1,10 @@
 var costumes = [
 	{
-		"name": "",
-		"gender": "",
+		"name": "Zombie Banana",
+		"gender": "unisex",
 		"price": "",
 		"description": "",
-		"image": ""
+		"image": "/images/banana.png"
 	},
 	{
 		"name": "",
