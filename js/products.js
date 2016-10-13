@@ -25,7 +25,7 @@ var costumes = [
 		"gender": "Dog",
 		"price": "$50",
 		"description": "Everyone's favorite robot",
-		"image": ""
+		"image": "images/r2d2.jpg"
 	},
 	{
 		"name": "Earthworm",

@@ -1,3 +1,9 @@
+
+#wrapper {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
 #costumes-header {
 	font-size: 200%;
 	text-align: center;
@@ -22,7 +28,9 @@
 	padding-left:15px;
 	border-radius: 30px;
 	display: inline-block;
-	float: left;
+
+
+	height: 600px;
 }
 
 .pics {
@@ -36,6 +44,7 @@
 .all:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
+
 }
 
 
@@ -49,3 +58,4 @@
 
 
 
+>>>>>>> f2a9d8f775e84fb48665c960d77804ccff428e14
