@@ -1,3 +1,4 @@
+
 #wrapper {
 	margin-left: 100px;
 	margin-right: 100px;
@@ -27,13 +28,14 @@
 	padding-left:15px;
 	border-radius: 30px;
 	display: inline-block;
-	float: left;
+
+
 	height: 600px;
 }
 
 .pics {
-	width: 300px;
-	height: 320px;
+	width: 320px;
+	height: 300px;
 	border: 2px solid black;
 	display: block;
 	margin-top: 30px;
@@ -42,4 +44,18 @@
 .all:hover {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transform: scale(1.1);
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> f2a9d8f775e84fb48665c960d77804ccff428e14
